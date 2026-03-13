@@ -239,7 +239,7 @@ lr_config = dict(
     warmup_iters=200,
     warmup_ratio=0.001,
     step=[5,10,20,30],
-    gamma=0.5
+    gamma=0.6
     )
 runner = dict(type='EpochBasedRunner', max_epochs=35)
 
