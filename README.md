@@ -1,5 +1,9 @@
 # DFEOcc: A Dual-Stream Foreground-Aware Enhancement Network with SpiralScan-Mamba for Vision-Based Occupancy Prediction in Autonomous Driving
 
+<div align="center">
+  <a href="https://www.sciencedirect.com/science/article/pii/S0952197626007293"><b>Our Paper (EAAI)</b></a>
+</div>
+
 ## Abstract
 In autonomous driving perception, conventional 3D object detection uses a closed set of categories and consequently fails to respond to previously unseen objects. By contrast, occupancy prediction estimates per-voxel occupancy and semantics, delivering finer geometric detail and approximate distance while generalizing beyond known classes to support downstream planning. Despite these advantages, prevailing occupancy architectures suffer from foreground-background imbalance and peripheral feature sparsity, which hinder accurate reasoning about the more critical foreground categories for autonomous driving and distant objects. To address these limitations, we propose a dual-stream framework that combines voxel-based modeling to strengthen foreground representation with a bird's-eye-view stream for efficient global feature extraction, employs an adaptive foreground-global information fusion module to flexibly integrate complementary information across the two streams. Additionally, we introduce a Mamba-based spiral scanning mechanism that propagates structural priors from dense central areas to peripheral regions, effectively enriching boundary features. Experimental results demonstrate that our method achieves competitive state-of-the-art performance, with notably stronger foreground-category prediction and performance robust to low-resolution inputs.
 
