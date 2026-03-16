@@ -85,7 +85,7 @@ python tools/test.py $config $checkpoint --eval mAP
 # multiple gpu
 ./tools/dist_test.sh $config $checkpoint num_gpu --eval mAP
 # for example (w/o historical frame)
-./tools/dist_test.sh projects/configs/occ_mamba_fo/occ_mamba_fo_r50.py ckpts/ occ_mamba_fo_r50/best_376.pth 4 --eval mAP
+./tools/dist_test.sh projects/configs/occ_mamba_fo/occ_mamba_fo_r50.py ckpts/occ_mamba_fo_r50/best_376.pth 4 --eval mAP
 # for example (w/ historical frame)
 ./tools/dist_test.sh projects/configs/occ_mamba_fo/occ_mamba_fo_4d_stereo_r50.py ckpts/occ_mamba_fo_4d_stereo_r50/best_4173.pth 4 --eval mAP
 ```
