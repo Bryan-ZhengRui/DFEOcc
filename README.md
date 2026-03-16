@@ -1,7 +1,7 @@
 # DFEOcc: A Dual-Stream Foreground-Aware Enhancement Network with SpiralScan-Mamba for Vision-Based Occupancy Prediction in Autonomous Driving
 
 <div align="center">
-  <a href="https://www.sciencedirect.com/science/article/pii/S0952197626007293"><b>Our Paper (EAAI)</b></a>
+  <a href="https://www.sciencedirect.com/science/article/pii/S0952197626007293">Our Paper (EAAI)</a>
 </div>
 
 ## Abstract
