@@ -112,3 +112,11 @@ python tools/train.py $config
 We thank [BEVDet](https://github.com/HuangJunJie2017/BEVDet), [FlashOcc](https://github.com/Yzichen/FlashOCC), [DHD](https://github.com/yanzq95/DHD?tab=readme-ov-file#quantitative-comparison) and [VMamba](https://github.com/MzeroMiko/VMamba?tab=readme-ov-file) for their foundational contributions. Their pioneering work inspired and guided this research.
 
 ## Citations
+@article{zheng26DFEOcc,
+title = {A dual-stream foreground-aware enhancement network with spiralscan-Mamba for vision-based occupancy prediction in autonomous driving},
+author = {Rui Zheng and Nannan Liu and Yanyin Guo and Chuiyi Deng and Zhuoyi Zhao and Zhiheng Liu and Junwei Li},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {173},
+pages = {114448},
+year = {2026}
+}
